@@ -17,7 +17,7 @@ const server = new GraphQLServer({
 })
 
 const options = {
-  post: provess.env.PORT || 5500,
+  port: process.env.PORT || 5500,
   endpoint: '/graphql',
   subscriptions: '/subscriptions',
   playground: '/playground',

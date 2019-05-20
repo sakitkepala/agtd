@@ -19,5 +19,8 @@
     "mongoose": "^5.1.5",
     "nodemailer": "^4.6.7",
     "nodemon": "^1.17.5"
+  },
+  "nodemonConfig": {
+    "ext": "js,json,graphql"
   }
 }
